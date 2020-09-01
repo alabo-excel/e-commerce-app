@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cart</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        img {
+            width: 30%;
+        }
+        
+        @media(max-width: 450px) {
+            img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="d-flex justify-content-between pl-5 pr-5 pt-3 pb-3">
+        <h1>Cart</h1>
+        <div class=" d-flex">
+            <a href="./index.html">
+                <h5 class="p-3">Home</h5>
+            </a>
+            <a href="./cart.html">
+                <h5 class="p-3">Cart <span id="qty">0</span></h5>
+            </a>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="row justify-content-center">
+            <div class="col-10 text-center">
+
+                <div class="products-header d-flex justify-content-center">
+                    <h5 class="products-title p-5"> PRODUCT</h5>
+                    <h5 class="p-5">PRICE</h5>
+                    <h5 class="p-5">QUANTITY</h5>
+                    <h5 class="p-5">TOTAL</h5>
+                </div>
+                <hr>
+                <div class="products-container">
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

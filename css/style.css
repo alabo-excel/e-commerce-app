@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+p {
+    font-weight: 500;
+}
+
+header {
+    background-color: orange;
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: 80%;
+}
+
+.row {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.add-cart {
+    position: absolute;
+    width: 90%;
+    background-color: orange;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card:hover .cart1,
+.card:hover .cart2,
+.card:hover .cart3,
+.card:hover .cart4,
+.card:hover .cart5,
+.card:hover .cart6 {
+    opacity: 1;
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid orange;
+}
+
+.product p,
+.product span {
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.price {
+    margin-top: 150px;
+    padding: 5px;
+}
+
+.product p {
+    background-color: orange;
+    color: white;
+    height: 30px;
+    border-radius: 50px;
+    width: 30px;
+}
+
+.total {
+    margin-top: 150px;
+    padding: 5px;
+}
